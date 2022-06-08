@@ -136,9 +136,15 @@ footer p {
     color: rgba(255,255,255,0.6);   
 }
 
+/* media */
+@media screen and (max-width:768px) {
+    body {
+        background: red;
+    }
+
+}
 
 /*
-
 @media (max-width: 1596px){
 .container {
     width: 100%;
