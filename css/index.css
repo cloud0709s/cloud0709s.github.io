@@ -77,12 +77,6 @@ body{
     z-index: 99;
 }
 
-@media (max-width: 1596px){
-.container {
-    width: 100%;
-}
-}
-
 .fix_box {
     margin: 0 auto;
     display: flex;
@@ -145,12 +139,18 @@ footer p {
 
 /*
 
+@media (max-width: 1596px){
+.container {
+    width: 100%;
+}
+}
+
+
 @media (max-width: 1200px) {
     .header {
         padding: 0 50px;
     }
 }
-
 
 @media (max-width: 767px) {
     #top_nav ul{
