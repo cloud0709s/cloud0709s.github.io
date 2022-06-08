@@ -1,0 +1,165 @@
+body{
+	background: url(..//images/bg.jpg);
+	background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.wrap {
+	/*max-width: 1200px;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* header_nav */
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.2s ease-in-out 0s;
+    margin: 0 auto;
+    /*background: #fff;
+    border-bottom: 2px solid #000;*/
+    box-shadow: 0px 4px 4px 2px rgb(0 0 0 / 10%);
+}
+
+.header h1.logo {
+/*    width: 70%;
+    text-align: left;
+    font-size: 30px;  */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header h1.logo a {
+    color: #fff;
+}
+
+.header nav#top_nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav#top_nav ul {
+    display: flex;
+    /* justify-content: flex-end; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header nav#top_nav ul li {
+    height: 80px;
+    line-height: 80px;
+    padding-right: 80px;
+}
+
+.header nav#top_nav ul li:last-child {
+    padding-right: 0px;
+}
+
+.header nav#top_nav ul li a {
+    color: #fff;
+}
+
+.header nav#top_nav ul li.selected {
+    font-weight: 700;
+}
+
+
+.headerArea {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+@media (max-width: 1596px){
+.container {
+    width: 100%;
+}
+}
+
+.fix_box {
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* container */
+.container {
+	font-size: 55px;
+	line-height: 2;
+	padding: 160px 0 0 0;
+}
+
+.container p {
+	color: #fff;
+}
+
+.container a {
+	display: inline-block;
+	background: #084d666b;
+	margin-top: 50px;
+	width: 300px;
+	height: 70px;
+    line-height: 70px;
+	border-radius: 10px;
+	text-align: center;
+	color: #daebf1;
+	font-size: 24px;
+	font-weight: 300;
+	border: 1px solid #ffffff21;
+	box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 12%);
+}
+
+/* footer */
+footer {
+    position: fixed;
+    width: 1200px;
+    bottom: 10px;
+
+    margin-top: 60px;
+    text-align: center;
+    /*background:  #222;*/
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.6);
+
+
+    padding: 20px 0;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.6);   
+}
+
+
+/*
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #top_nav ul{
+        background: red;
+        width: 45px;
+        height: 5px;
+        margin: 5px;
+        transition: all 0.5s;
+    }
+
+}
+*/
