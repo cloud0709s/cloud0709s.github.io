@@ -97,7 +97,7 @@ nav.gnb {position:fixed; top:0; width:100%; padding:30px; display:flex; z-index:
     margin-left: -600px;
     left: 50%;
     }
-nav.gnb.on {background:rgba(0,0,0, .3);}
+nav.gnb.on {background:rgba(0,0,0, .3); box-shadow: 0px 0px 10px #000000b3;}
 nav.gnb h1 {width:200px; vertical-align:middle; text-align: left;}
 nav.gnb ul {flex:1; display:table;}
 nav.gnb ul li {display:table-cell; text-align:right; vertical-align:middle; cursor:pointer; color: #fff; width:33.3%;}
