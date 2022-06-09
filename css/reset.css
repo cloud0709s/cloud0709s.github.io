@@ -15,6 +15,9 @@ article {display:flex; padding:50px 0;}
 article:first-child {padding:0 0 50px;}
 .hide {display:none!important;}
 
+/* font setting */
+html { font-size:62.5%; }
+html { font-size:10px; }
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
