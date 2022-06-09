@@ -95,7 +95,7 @@ header {z-index:10;}
 .gnb_box {
 
 }
-nav.gnb {position:fixed; top:0; width:100%; padding:30px; display:flex; z-index:100; color:#fff;}
+nav.gnb {position:fixed; top:0; width:100%; padding:30px; display:flex; z-index:100; color:#fff;font-size: 1.8rem;}
 nav.gnb.on {background:rgba(0,0,0, .3); box-shadow: 0px 0px 10px #000000b3;}
 div.gnb_size {display: flex;
     z-index: 100;
