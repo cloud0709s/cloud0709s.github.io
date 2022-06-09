@@ -1,15 +1,15 @@
 body{
-	background: url(..//images/bg.jpg);
-	background-repeat : no-repeat;
+    background: url(..//images/bg.jpg);
+    background-repeat : no-repeat;
     background-size : cover;
     text-align:center;
 }
 
 /*
 .wrap {
-	/*max-width: 1200px;
-	margin: 0 auto;
-	text-align: center;
+    /*max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* header_nav 
@@ -92,12 +92,18 @@ body{
 
 /* header */
 header {z-index:10;}
-nav.gnb {position:fixed; top:0; width:100%; padding:30px; display:flex; z-index:100; color:#fff;
-    max-width: 1200px;
-    margin-left: -600px;
-    left: 50%;
-    }
+.gnb_box {
+
+}
+nav.gnb {position:fixed; top:0; width:100%; padding:30px; display:flex; z-index:100; color:#fff;}
 nav.gnb.on {background:rgba(0,0,0, .3); box-shadow: 0px 0px 10px #000000b3;}
+div.gnb_size {display: flex;
+    z-index: 100;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 nav.gnb h1 {width:200px; vertical-align:middle; text-align: left;}
 nav.gnb ul {flex:1; display:table;}
 nav.gnb ul li {display:table-cell; text-align:right; vertical-align:middle; cursor:pointer; color: #fff; width:33.3%;}
@@ -131,29 +137,29 @@ nav.side ul li {padding:20px 0; cursor:pointer;
 
 /* container */
 .container {
-	font-size: 55px;
-	line-height: 2;
-	padding: 160px 0 0 0;
+    font-size: 55px;
+    line-height: 2;
+    padding: 160px 0 0 0;
 }
 
 .container p {
-	color: #fff;
+    color: #fff;
 }
 
 .container a {
-	display: inline-block;
-	background: #084d666b;
-	margin-top: 50px;
-	width: 300px;
-	height: 70px;
+    display: inline-block;
+    background: #084d666b;
+    margin-top: 50px;
+    width: 300px;
+    height: 70px;
     line-height: 70px;
-	border-radius: 10px;
-	text-align: center;
-	color: #daebf1;
-	font-size: 24px;
-	font-weight: 300;
-	border: 1px solid #ffffff21;
-	box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+    text-align: center;
+    color: #daebf1;
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid #ffffff21;
+    box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 12%);
 }
 
 /* footer */
