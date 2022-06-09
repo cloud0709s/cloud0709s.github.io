@@ -1,10 +1,26 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&display=swap');
+*/
+
 
 /* reset */
 * {margin:0; padding:0; box-sizing:border-box;}
-body {font-family: 'Noto Sans KR', sans-serif;}
-/* font-family: 'Nanum Gothic', sans-serif; */
+
+body {
+	letter-spacing: 0.5px;
+	font-family: 'NotoSansKR', 'Raleway', sans-serif;
+}
+
 ul,ol,li {list-style:none;}
 button {border:none; background-color:transparent; cursor:pointer; outline:0; vertical-align:middle;}
 
@@ -15,14 +31,62 @@ article {display:flex; padding:50px 0;}
 article:first-child {padding:0 0 50px;}
 .hide {display:none!important;}
 
+
 /* font setting */
-html { font-size:62.5%; }
-html { font-size:10px; }
+html { font-size:10px;}
 
 
-img {
-	margin-bottom: -4px;
+
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url('NotoSansKR-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+	unicode-range: U+AC00-D7AF;
 }
+
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('Raleway-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+	unicode-range: U+4E00–9FBF, U+3040–309F, U+30A0–30FF;
+}
+
+
+
+/*
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Light) format('woff');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Light.ttf) format('truetype');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Medium) format('woff');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Bold) format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Light) format('woff');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Light.ttf) format('truetype');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Medium) format('woff');
+	src: url(..//fonts/NotoSansKR/NotoSansKR-Bold) format('woff');
+	unicode-range: U+AC00-D7A3;
+}
+
+
+@font-face {
+	font-family: 'Raleway';
+	src: url(..//fonts/Raleway/Raleway-Light) format('woff');
+	src: url(..//fonts/Raleway/Raleway-Regular) format('woff');
+	src: url(..//fonts/Raleway/Raleway-Medium) format('woff');	
+	src: url(..//fonts/Raleway/Raleway-Bold) format('woff');
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+*/
+
+
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -74,4 +138,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*/
+
+img {
+	margin-bottom: -4px;
+}*/
