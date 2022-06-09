@@ -20,6 +20,11 @@ html { font-size:62.5%; }
 html { font-size:10px; }
 
 
+img {
+	margin-bottom: -4px;
+}
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -69,7 +74,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-img {
-	margin-bottom: -4px;
-}*/
+*/
