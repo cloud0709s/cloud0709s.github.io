@@ -1,40 +1,82 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
 <title>LPORTFOLIO</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="js/index2.js"></script>
+
 <link type="text/css" rel="stylesheet" href="css/reset.css" />
-<link type="text/css" rel="stylesheet" href="css/common.css" />
+<!--<link type="text/css" rel="stylesheet" href="css/common.css" />-->
 <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+<script type="text/javascript">
+//nav - side
+    $('.btn_nav').on('click',function(){
+        if( $('nav.side').hasClass('on') ){
+        }else{
+            $('nav.side').addClass('on');
+        }        
+    });
+
+    $('nav.side .btn_close').on('click',function(){
+        $('nav.side').removeClass('on');
+    });
+
+    //footer
+    $('footer').before('<div class="footer_height"></div>');
+    $('.footer_height').css('height',$('footer').outerHeight());
+    
+</script>
+
 </head>
 <body>
-<div class="wrap">
+<!--<div class="wrap">-->
 	<header class="header">
-		<div class="fix_box">
-			<h1 class="logo"><a href="#">L.Portfolio.</a></h1>
-			<nav id="top_nav">
-				<ul>
-					<li><a href="#">About Me</a></li>
-					<li><a href="work_main.html">Work</a></li>
-					<li><a href="#">Personal</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-<!-- work > ALL, itemBay PW, itemBay MW, Orimarket, 번개매칭 -->
+		<nav class="gnb">
+            <h1>L.portfolio</h1>
+            <ul>
+                <li>about me</li>
+                <li>works</li>
+                <li>personal</li>
+            </ul>
+            <button class="btn_nav">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
 
+        <nav class="side">
+            <h1>L.portfolio</h1>
+            <ul>
+                <li>about me</li>
+                <li>works</li>
+                <li>personal</li>
+            </ul>
+            <button class="btn_close">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+	</header>
+		<!-- work > ALL, itemBay PW, itemBay MW, Orimarket, 번개매칭 -->
+	
 	<div class="container">
 		<p>안녕하세요.</p>
 		<p>디자이너 이경은입니다.</p>
 		<p>WELCOME :)</p>
 		<a href="#">PDF download </a>
 	</div>
-
+	
 	<footer>
 		<p>ver.2022</p>
 	</footer>
-</div>
+<!--</div>-->
 </body>
 </html>
+
+
