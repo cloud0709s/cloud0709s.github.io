@@ -39,7 +39,7 @@ html { font-size:10px;}
 
 @font-face {
 	font-family: 'NotoSansKR';
-	src: url('NotoSansKR-Bold.woff') format('woff');
+	src: url('../fonts/NotoSansKR/NotoSansKR-Bold.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
 	unicode-range: U+AC00-D7AF;
@@ -48,7 +48,7 @@ html { font-size:10px;}
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('Raleway-Bold.woff') format('woff');
+	src: url('../fonts/Raleway/Raleway-Bold.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
 	unicode-range: U+4E00–9FBF, U+3040–309F, U+30A0–30FF;
